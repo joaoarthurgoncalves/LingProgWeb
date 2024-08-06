@@ -1,5 +1,4 @@
 <?php
-
 echo "Dados recebidos por POST: <br>";
 
 $n1 = $_POST['n1'];
