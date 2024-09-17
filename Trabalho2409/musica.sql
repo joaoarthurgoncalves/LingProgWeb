@@ -1,0 +1,8 @@
+CREATE TABLE instrumentos (
+    id INTEGER NOT NULL AUTO_INCREMENT,
+    nome VARCHAR(50) NOT NULL,
+    tipo VARCHAR(50) NOT NULL,
+    marca VARCHAR(50) NOT NULL,
+    cor VARCHAR(50) NOT NULL,
+    CONSTRAINT pk_instrumentos PRIMARY KEY (id)
+);
